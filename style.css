@@ -1,0 +1,16 @@
+:root {
+--accent-color:  #FFD723;
+--text-color: #FFF;
+--title-color: #4D533C;
+--description-color: rgba(33, 56, 66, 0.60);
+--info-color: rgba(77, 83, 60, 0.90);
+--links-color:  #D4D6D4;
+--article-text:  #152934;
+--footer-text: #B6C197;
+}
+.hero {
+background-image: url(../imges/backg.png);
+}
+header {
+    background-color: black;
+}
