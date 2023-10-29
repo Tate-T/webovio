@@ -1,16 +1,55 @@
 :root {
---accent-color:  #FFD723;
---text-color: #FFF;
---title-color: #4D533C;
---description-color: rgba(33, 56, 66, 0.60);
---info-color: rgba(77, 83, 60, 0.90);
---links-color:  #D4D6D4;
---article-text:  #152934;
---footer-text: #B6C197;
+    --accent-color: #FFD723;
+    --text-color: #FFF;
+    --title-color: #4D533C;
+    --description-color: rgba(33, 56, 66, 0.60);
+    --info-color: rgba(77, 83, 60, 0.90);
+    --links-color: #D4D6D4;
+    --article-text: #152934;
+    --footer-text: #B6C197;
 }
+
 .hero {
-background-image: url(../imges/backg.png);
+    background-image: url(../imges/backg.png);
 }
+
 header {
     background-color: black;
+}
+
+.hero-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.hero-description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.hero-link {
+    color: #FFD723;
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
 }
