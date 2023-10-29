@@ -8,6 +8,10 @@
   --article-text: #152934;
   --footer-text: #b6c197;
 }
+body {
+  font-family: Poppins;
+}
+
 /* header */
 header {
   background-color: black;
@@ -15,32 +19,25 @@ header {
 
 /* hero */
 .hero {
-  background-image: url(../imges/backg.png);
+  background-image: url(./images/hero-background.webp);
 }
 
 .hero-text {
   color: #fff;
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .hero-title {
   color: #fff;
-  font-family: Poppins;
   font-size: 60px;
-  font-style: normal;
   font-weight: 700;
   line-height: 74px;
 }
 
 .hero-description {
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px;
 }
@@ -49,33 +46,24 @@ header {
   color: #ffd723;
   font-family: FontAwesome;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-decoration-line: underline;
 }
 /* work */
 .work-text {
   color: rgba(77, 83, 60, 0.9);
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .work-title {
   color:var(--title-color);
-  font-family: Poppins;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 46px; /* 127.778% */
 }
 .work-desc {
   color: rgba(33, 56, 66, 0.6);
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
@@ -83,14 +71,11 @@ header {
   color:var(--links-color);
   font-family: FontAwesome;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   text-decoration-line: underline;
 }
 .work-info {
   color:var(--title-color);
-  font-family: Poppins;
   font-size: 24px;
   font-style: italic;
   font-weight: 400;
@@ -98,14 +83,12 @@ header {
 }
 .work-subject {
   color:var(--title-color);
-  font-family: Poppins;
   font-size: 22px;
   font-weight: 700;
  ;
 }
 .work-founder {
   color: var(--article-text);
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   
