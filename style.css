@@ -1,55 +1,112 @@
 :root {
-    --accent-color: #FFD723;
-    --text-color: #FFF;
-    --title-color: #4D533C;
-    --description-color: rgba(33, 56, 66, 0.60);
-    --info-color: rgba(77, 83, 60, 0.90);
-    --links-color: #D4D6D4;
-    --article-text: #152934;
-    --footer-text: #B6C197;
+  --accent-color: #ffd723;
+  --text-color: #fff;
+  --title-color: #4d533c;
+  --description-color: rgba(33, 56, 66, 0.6);
+  --info-color: rgba(77, 83, 60, 0.9);
+  --links-color: #d4d6d4;
+  --article-text: #152934;
+  --footer-text: #b6c197;
 }
-
-.hero {
-    background-image: url(../imges/backg.png);
-}
-
+/* header */
 header {
-    background-color: black;
+  background-color: black;
+}
+
+/* hero */
+.hero {
+  background-image: url(../imges/backg.png);
 }
 
 .hero-text {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .hero-title {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 74px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px;
 }
 
 .hero-description {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .hero-link {
-    color: #FFD723;
-    font-family: FontAwesome;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration-line: underline;
+  color: #ffd723;
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+/* work */
+.work-text {
+  color: rgba(77, 83, 60, 0.9);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.work-title {
+  color:var(--title-color);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+}
+.work-desc {
+  color: rgba(33, 56, 66, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.work-link {
+  color:var(--links-color);
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.work-info {
+  color:var(--title-color);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+}
+.work-subject {
+  color:var(--title-color);
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+ ;
+}
+.work-founder {
+  color: var(--article-text);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  
 }
