@@ -130,3 +130,119 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.33; /* 133.333% */
 }
+
+.project-description{
+  color: var(--description-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62; /* 162.5% */
+}
+
+.project-link{
+  color: var(--links-color);
+font-size: 16px;
+font-weight: 700;
+}
+
+/* section advantages */
+
+.advantages-title{
+  color: var(--title-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.27; /* 127.778% */
+}
+
+.advantages-name{
+  color: var(--title-color);
+font-size: 24px;
+font-weight: 500;
+line-height: 1.41; /* 141.667% */
+text-transform: uppercase;
+}
+
+.advantages-text{
+  color: var(--description-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.85; /* 185.714% */
+}
+
+.advantages-link{
+  color: var(--links-color);
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+
+.advantages-link:hover{
+  color: var(--accent-color); 
+}
+
+/* section offer */
+
+.offer-title{
+  color: var(--title-color);
+font-size: 60px;
+font-weight: 700;
+line-height: 1.23; /* 123.333% */
+}
+
+.offer-text{
+  color: var(--links-color);
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+
+/* section footer */
+
+.footer-text{
+  color: var(--footer-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 2.5; /* 250% */
+}
+
+.footer-contact{
+  color: var(--text-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 2.5; /* 250% */
+}
+
+.footer-item-title{
+  color: var(--text-color);
+font-size: 16px;
+font-weight: 600;
+line-height: 2.37; /* 237.5% */
+text-transform: uppercase;
+}
+
+.footer-item-link{
+  color: var(--footer-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 2.5; /* 250% */
+}
+
+.footer-item-text{
+  color: var(--footer-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.62; /* 162.5% */
+}
+
+.footer-item-email{
+  color: var(--text-color);
+font-size: 24px;
+font-weight: 700;
+line-height: 1.58; /* 158.333% */
+}
+
+.confidential-info{
+  color: var(--footer-text);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+}
