@@ -32,7 +32,7 @@ header {
   color: #fff;
   font-size: 60px;
   font-weight: 700;
-  line-height: 74px;
+  line-height: 1.23;
 }
 
 .hero-description {
@@ -59,13 +59,13 @@ header {
   color:var(--title-color);
   font-size: 36px;
   font-weight: 700;
-  line-height: 46px; /* 127.778% */
+  line-height: 1.27; /* 127.778% */
 }
 .work-desc {
   color: rgba(33, 56, 66, 0.6);
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 1.62; /* 162.5% */
 }
 .work-link {
   color:var(--links-color);
@@ -79,7 +79,7 @@ header {
   font-size: 24px;
   font-style: italic;
   font-weight: 400;
-  line-height: 40px; /* 166.667% */
+  line-height: 1.66; /* 166.667% */
 }
 .work-subject {
   color:var(--title-color);
@@ -92,4 +92,41 @@ header {
   font-size: 16px;
   font-weight: 400;
   
+}
+.project-title{
+  color: var(--title-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.project-paragraph{
+  color:var(--info-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.62; /* 162.5% */
+}
+.project-text {
+  color:var(--title-color);
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 1.62; /* 162.5% */
+}
+.project-name{
+  color:var(--title-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 1.5;
+}
+.project-position{
+  color: var(--article-text);
+font-size: 14px;
+font-weight: 400;
+line-height:1.5;
+}
+.project-subtitle{
+  color: var(--title-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.33; /* 133.333% */
 }
