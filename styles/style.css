@@ -48,13 +48,18 @@ align-items: center;
 
 /* hero */
 .hero {
-  background-image: url(./images/hero-background.webp);
+  background-image: url(../images/hero-background.webp);
+  padding-top: 121px;
+  padding-bottom: 220px;
 }
-
+.hero-box{
+width: 616px;
+}
 .hero-text {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 22px;
 }
 
 .hero-title {
@@ -69,6 +74,8 @@ align-items: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  margin-top: 24px ;
+  margin-bottom: 45px;
 }
 
 .hero-link {
@@ -77,6 +84,15 @@ align-items: center;
   font-size: 16px;
   font-weight: 400;
   text-decoration-line: underline;
+}
+/* section partners */
+.partners{
+  padding: 60px 0px 54px;
+}
+.partners-list{
+display: flex;
+justify-content: center;
+gap: 66px;
 }
 /* work */
 .work-text {
