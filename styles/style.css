@@ -178,17 +178,24 @@ body {
   padding-bottom: 150px;
 }
 .project-article {
-  outline: solid grey;
+  outline: solid blue 3px;
   position: relative;
   padding-top: 80px;
   padding-bottom: 73px;
   display: flex;
+  /* flex-direction: row-reverse; */
   justify-content: end;
+}
+.project-item:nth-child(even) .project-article{
+justify-content: start;
 }
 .project-photo {
   right: 500px;
   top: 0;
   position: absolute;
+}
+.project-item:nth-child(even) .project-photo{
+  right: -250px;
 }
 .project-content {
   margin-bottom: 104px;
