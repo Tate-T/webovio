@@ -377,18 +377,27 @@ footer {
 }
 
 .footer-contact {
-  outline: solid yellow;
 }
 
 .footer-list{
   display: flex;
-  justify-content: space-between;
   margin-top: 60px;
 }
 
+.footer-item:first-child{
+  margin-right: 78px;
+}
+
+.footer-item:nth-child(2){
+  margin-right: 100px;
+}
+
 .footer-item:not(:last-child) {
-  outline: 1px solid yellow;
   width: 160px;
+}
+
+.footer-item-title{
+  margin-bottom: 21px;
 }
 
 .footer-text {
@@ -406,13 +415,25 @@ footer {
   font-style: normal;
 }
 
+.footer-item:last-child{
+  border-left: solid 1px #5D6544;
+  padding-left: 110px;
+  width: 322px;
+}
+
+.footer-item{
+  flex-shrink: 0;
+}
+
 .footer-line{
   height: 1px;
   background-color: #5D6544 ;
+  margin-top: 60px;
 }
 
 .footer-link{
-  display: block;
+  display: flex;
+  align-items: center;
   margin-top: 24px;
 }
 
@@ -439,10 +460,18 @@ footer {
 }
 
 .footer-item-email {
+  display: block;
   color: var(--text-color);
   font-size: 24px;
   font-weight: 700;
   line-height: 1.58; /* 158.333% */
+  margin-top: 23px;
+}
+
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .confidential-info {
