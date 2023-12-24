@@ -16,7 +16,6 @@ body {
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
-  border: red solid 2px;
 }
 
 /* header */
@@ -155,7 +154,6 @@ body {
 }
 
 .work-art {
-  outline: 2px solid grey;
   padding-left: 40px;
   padding-right: 8px;
   padding-top: 120px;
@@ -178,24 +176,31 @@ body {
   padding-bottom: 150px;
 }
 .project-article {
-  outline: solid blue 3px;
-  position: relative;
   padding-top: 80px;
   padding-bottom: 73px;
+}
+.project-item {
+  height: 550px;
+  position: relative;
+  margin-top: 165px;
   display: flex;
   /* flex-direction: row-reverse; */
   justify-content: end;
+  align-items: center;
 }
-.project-item:nth-child(even) .project-article{
-justify-content: start;
+.project-item:first-child{
+  margin-top: 0;
+}
+.project-item:nth-child(even) {
+  justify-content: start;
 }
 .project-photo {
   right: 500px;
   top: 0;
   position: absolute;
 }
-.project-item:nth-child(even) .project-photo{
-  right: -250px;
+.project-item:nth-child(even) .project-photo {
+  right: -130px;
 }
 .project-content {
   margin-bottom: 104px;
@@ -219,7 +224,6 @@ justify-content: start;
   line-height: 1.62; /* 162.5% */
 }
 .project-box {
-  outline: solid black;
   width: 475px;
   flex-shrink: 0;
 }
@@ -272,20 +276,19 @@ justify-content: start;
 
 /* section advantages */
 
-.advantages{
+.advantages {
   padding-top: 149px;
   padding-bottom: 150px;
 }
 
-.advantages-list{
-display: flex;
-gap: 30px;
+.advantages-list {
+  display: flex;
+  gap: 30px;
 }
 
-.advantages-item{
+.advantages-item {
   width: 255px;
-outline: solid 2px red;
-padding-left: 30px;
+  padding-left: 30px;
   padding-top: 27px;
   padding-right: 42px;
   padding-bottom: 36px;
@@ -300,10 +303,9 @@ padding-left: 30px;
 
 } */
 
-.advantages-text-block{
+.advantages-text-block {
   display: block;
 }
-
 
 .advantages-title {
   color: var(--title-color);
@@ -323,7 +325,6 @@ padding-left: 30px;
   width: 183px;
   height: 63px;
   margin-bottom: 20px;
-  
 }
 
 .advantages-text {
@@ -347,11 +348,9 @@ padding-left: 30px;
 
 /* section offer */
 
-.offer{
+.offer {
   padding-top: 70px;
   padding-bottom: 70px;
-  
-
 }
 .offer-title {
   color: var(--title-color);
@@ -374,7 +373,7 @@ padding-left: 30px;
 footer {
   padding-top: 120px;
   padding-bottom: 30px;
-  background-color: #4F553D;
+  background-color: #4f553d;
 }
 
 .footer-contacts {
@@ -386,16 +385,16 @@ footer {
 .footer-contact {
 }
 
-.footer-list{
+.footer-list {
   display: flex;
   margin-top: 60px;
 }
 
-.footer-item:first-child{
+.footer-item:first-child {
   margin-right: 78px;
 }
 
-.footer-item:nth-child(2){
+.footer-item:nth-child(2) {
   margin-right: 100px;
 }
 
@@ -403,7 +402,7 @@ footer {
   width: 160px;
 }
 
-.footer-item-title{
+.footer-item-title {
   margin-bottom: 21px;
 }
 
@@ -422,23 +421,23 @@ footer {
   font-style: normal;
 }
 
-.footer-item:last-child{
-  border-left: solid 1px #5D6544;
+.footer-item:last-child {
+  border-left: solid 1px #5d6544;
   padding-left: 110px;
   width: 322px;
 }
 
-.footer-item{
+.footer-item {
   flex-shrink: 0;
 }
 
-.footer-line{
+.footer-line {
   height: 1px;
-  background-color: #5D6544 ;
+  background-color: #5d6544;
   margin-top: 60px;
 }
 
-.footer-link{
+.footer-link {
   display: flex;
   align-items: center;
   margin-top: 24px;
@@ -475,7 +474,7 @@ footer {
   margin-top: 23px;
 }
 
-.footer-end{
+.footer-end {
   display: flex;
   justify-content: space-between;
   align-items: center;
