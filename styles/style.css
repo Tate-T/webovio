@@ -20,8 +20,12 @@ body {
 
 /* header */
 .header {
-  background-color: black;
   padding-top: 23px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
 }
 
 .header-container {
@@ -87,6 +91,15 @@ body {
 /* section partners */
 .partners {
   padding: 60px 0px 54px;
+  position: absolute;
+  top: 650px;
+  right: 0px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+}
+main {
+  position: relative;
 }
 .partners-list {
   display: flex;
@@ -105,7 +118,9 @@ body {
 }
 
 .work-article {
-  padding-top: 120px;
+  padding-top: 234px;
+  max-width: 475px;
+  height: 366px;
 }
 
 .work-text {
@@ -142,6 +157,19 @@ body {
   font-weight: 400;
   line-height: 1.66; /* 166.667% */
   margin-bottom: 50px;
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 8px;
+}
+.work-art {
+  width: 474px;
+  background: #fff;
+  box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 73px;
+  padding-left: 40px;
+  padding-right: 8px;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .work-box {
@@ -151,13 +179,6 @@ body {
 .person-article {
   display: flex;
   flex-direction: column;
-}
-
-.work-art {
-  padding-left: 40px;
-  padding-right: 8px;
-  padding-top: 120px;
-  padding-bottom: 60px;
 }
 
 .work-subject {
@@ -188,7 +209,7 @@ body {
   justify-content: end;
   align-items: center;
 }
-.project-item:first-child{
+.project-item:first-child {
   margin-top: 0;
 }
 .project-item:nth-child(even) {
