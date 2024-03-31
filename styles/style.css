@@ -250,9 +250,12 @@ main {
 }
 .project-subarticle {
   position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
+  z-index: 2;
+  left: 158px;
+  top: 734px;
+  width: 453px;
+  height: 243px;
+  background-color: #fff;
 }
 .project-text {
   color: var(--title-color);
