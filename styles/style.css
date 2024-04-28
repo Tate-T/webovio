@@ -208,6 +208,7 @@ main {
   /* flex-direction: row-reverse; */
   justify-content: end;
   align-items: center;
+  gap: 96px;
 }
 .project-item:first-child {
   margin-top: 0;
@@ -216,12 +217,12 @@ main {
   justify-content: start;
 }
 .project-photo {
-  right: 500px;
+  right: 575px;
   top: 0;
   position: absolute;
 }
 .project-item:nth-child(even) .project-photo {
-  right: -130px;
+  left: 535px;
 }
 .project-content {
   margin-bottom: 104px;
@@ -251,11 +252,25 @@ main {
 .project-subarticle {
   position: absolute;
   z-index: 2;
-  left: 158px;
   top: 734px;
   width: 453px;
   height: 243px;
   background-color: #fff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 30px 30px 29px 33px;
+}
+.project-image {
+  width: 46px;
+  height: 46px;
+}
+.project-item:first-child .project-subarticle, .project-item:nth-child(3) .project-subarticle {
+  top: 372px;
+  right: 531px;
+}
+.project-item:nth-child(2) .project-subarticle {
+top: 342px;
+left: 493px;
 }
 .project-text {
   color: var(--title-color);
@@ -366,7 +381,7 @@ main {
   text-decoration-line: underline;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(.41,.33,.46,.93);
+  transition-timing-function: cubic-bezier(0.41, 0.33, 0.46, 0.93);
 }
 
 .advantages-link:hover {
