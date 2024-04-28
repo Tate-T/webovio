@@ -364,6 +364,9 @@ main {
   font-size: 16px;
   font-weight: 700;
   text-decoration-line: underline;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(.41,.33,.46,.93);
 }
 
 .advantages-link:hover {
