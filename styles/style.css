@@ -97,6 +97,22 @@ body {
   border-radius: 2px;
   background: #fff;
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+  animation-name: run-list;
+  animation-duration: 3s;
+}
+@keyframes run-list {
+  0% {
+    transform: translate(1000px);
+  }
+
+  50% {
+    box-shadow: 5px 5px 50px 5px grey;
+    border-radius: 20%;
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 main {
   position: relative;
@@ -264,13 +280,14 @@ main {
   width: 46px;
   height: 46px;
 }
-.project-item:first-child .project-subarticle, .project-item:nth-child(3) .project-subarticle {
+.project-item:first-child .project-subarticle,
+.project-item:nth-child(3) .project-subarticle {
   top: 372px;
   right: 531px;
 }
 .project-item:nth-child(2) .project-subarticle {
-top: 342px;
-left: 493px;
+  top: 342px;
+  left: 493px;
 }
 .project-text {
   color: var(--title-color);
