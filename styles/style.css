@@ -70,6 +70,23 @@ body {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.23;
+  animation-name: text-run;
+  animation-duration: 3s;
+}
+@keyframes text-run{
+0%{
+  transform: translateX(-1000px);
+}
+50%{
+color: var(--accent-color);
+text-shadow: 5px 5px 5px;
+}
+75%{
+color: #fff;
+}
+100%{
+transform: translate(0);
+}
 }
 
 .hero-description {
