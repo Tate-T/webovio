@@ -1,0 +1,29 @@
+@keyframes text-run {
+    0% {
+      transform: translateX(-1000px);
+    }
+    50% {
+      color: var(--accent-color);
+      text-shadow: 5px 5px 5px;
+    }
+    75% {
+      color: #fff;
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  @keyframes run-list {
+    0% {
+      transform: translate(1000px);
+    }
+  
+    50% {
+      box-shadow: 5px 5px 50px 5px grey;
+      border-radius: 20%;
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }

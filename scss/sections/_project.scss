@@ -1,0 +1,138 @@
+.project {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.project-article {
+  padding-top: 80px;
+  padding-bottom: 73px;
+}
+
+.project-item {
+  height: 550px;
+  position: relative;
+  margin-top: 165px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 96px;
+}
+
+.project-item:first-child {
+  margin-top: 0;
+}
+
+.project-item:nth-child(even) {
+  justify-content: start;
+}
+
+.project-photo {
+  right: 575px;
+  top: 0;
+  position: absolute;
+}
+
+.project-item:nth-child(even) .project-photo {
+  left: 535px;
+}
+
+.project-content {
+  margin-bottom: 104px;
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
+.project-title {
+  color: var(--title-color);
+  width: 325px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.project-paragraph {
+  color: var(--info-color);
+  width: 518px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62; /* 162.5% */
+}
+
+.project-box {
+  width: 475px;
+  flex-shrink: 0;
+}
+
+.project-subarticle {
+  position: absolute;
+  z-index: 2;
+  top: 734px;
+  width: 453px;
+  height: 243px;
+  background-color: #fff;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 30px 30px 29px 33px;
+}
+
+.project-image {
+  width: 46px;
+  height: 46px;
+}
+
+.project-item:first-child .project-subarticle,
+.project-item:nth-child(3) .project-subarticle {
+  top: 372px;
+  right: 531px;
+}
+
+.project-item:nth-child(2) .project-subarticle {
+  top: 342px;
+  left: 493px;
+}
+
+.project-text {
+  color: var(--title-color);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.62;
+}
+
+.project-name {
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.project-position {
+  color: var(--article-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.project-subtitle {
+  color: var(--title-color);
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.project-description {
+  color: var(--description-color);
+  margin-bottom: 90px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+}
+
+.project-link {
+  color: var(--links-color);
+  font-size: 16px;
+  font-weight: 700;
+}
