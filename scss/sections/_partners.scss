@@ -8,10 +8,10 @@
   box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
   animation-name: run-list;
   animation-duration: 3s;
-}
 
-.partners-list {
-  display: flex;
-  justify-content: center;
-  gap: 66px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+  }
 }

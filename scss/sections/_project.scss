@@ -1,138 +1,137 @@
 .project {
   padding-top: 150px;
   padding-bottom: 150px;
-}
 
-.project-article {
-  padding-top: 80px;
-  padding-bottom: 73px;
-}
+  &__article {
+    padding-top: 80px;
+    padding-bottom: 73px;
+  }
 
-.project-item {
-  height: 550px;
-  position: relative;
-  margin-top: 165px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 96px;
-}
+  &__item {
+    height: 550px;
+    position: relative;
+    margin-top: 165px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 96px;
 
-.project-item:first-child {
-  margin-top: 0;
-}
+    &:first-child {
+      margin-top: 0;
+    }
+    &:nth-child(even) {
+      justify-content: start;
+    }
+  }
 
-.project-item:nth-child(even) {
-  justify-content: start;
-}
+  &__photo {
+    right: 575px;
+    top: 0;
+    position: absolute;
+  }
 
-.project-photo {
-  right: 575px;
-  top: 0;
-  position: absolute;
-}
+  &__item:nth-child(even) &__photo {
+    left: 535px;
+  }
 
-.project-item:nth-child(even) .project-photo {
-  left: 535px;
-}
+  &__content {
+    margin-bottom: 104px;
+    display: flex;
+    align-items: center;
+    gap: 133px;
+  }
 
-.project-content {
-  margin-bottom: 104px;
-  display: flex;
-  align-items: center;
-  gap: 133px;
-}
+  &__title {
+    color: $title-color;
+    width: 325px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+    flex-shrink: 0;
+  }
 
-.project-title {
-  color: $title-color;
-  width: 325px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.5;
-  flex-shrink: 0;
-}
+  &__paragraph {
+    color: $info-color;
+    width: 518px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62; /* 162.5% */
+  }
 
-.project-paragraph {
-  color: $info-color;
-  width: 518px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.62; /* 162.5% */
-}
+  &__box {
+    width: 475px;
+    flex-shrink: 0;
+  }
 
-.project-box {
-  width: 475px;
-  flex-shrink: 0;
-}
+  &__subarticle {
+    position: absolute;
+    z-index: 2;
+    top: 734px;
+    width: 453px;
+    height: 243px;
+    background-color: $text-color;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 30px 30px 29px 33px;
+  }
 
-.project-subarticle {
-  position: absolute;
-  z-index: 2;
-  top: 734px;
-  width: 453px;
-  height: 243px;
-  background-color: $text-color;
-  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  padding: 30px 30px 29px 33px;
-}
+  &__image {
+    width: 46px;
+    height: 46px;
+  }
 
-.project-image {
-  width: 46px;
-  height: 46px;
-}
+  &__item:first-child &__subarticle,
+  &__item:nth-child(3) &__subarticle {
+    top: 372px;
+    right: 531px;
+  }
 
-.project-item:first-child .project-subarticle,
-.project-item:nth-child(3) .project-subarticle {
-  top: 372px;
-  right: 531px;
-}
+  &__item:nth-child(2) &__subarticle {
+    top: 342px;
+    left: 493px;
+  }
 
-.project-item:nth-child(2) .project-subarticle {
-  top: 342px;
-  left: 493px;
-}
+  &__text {
+    color: $title-color;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.62;
+  }
 
-.project-text {
-  color: $title-color;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.62;
-}
+  &__name {
+    color: $title-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
 
-.project-name {
-  color: $title-color;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
-}
+  &__position {
+    color: $article-text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
 
-.project-position {
-  color: $article-text;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-}
+  &__subtitle {
+    color: $title-color;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.33;
+  }
 
-.project-subtitle {
-  color: $title-color;
-  margin-bottom: 24px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.33;
-}
+  &__description {
+    color: $description-color;
+    margin-bottom: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62;
+  }
 
-.project-description {
-  color: $description-color;
-  margin-bottom: 90px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.62;
-}
-
-.project-link {
-  color: $links-color;
-  font-size: 16px;
-  font-weight: 700;
+  &__link {
+    color: $links-color;
+    font-size: 16px;
+    font-weight: 700;
+  }
 }
