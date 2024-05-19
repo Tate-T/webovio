@@ -2,41 +2,41 @@
   background-image: url(../images/hero-background.webp);
   padding-top: 121px;
   padding-bottom: 220px;
-}
 
-.hero-box {
-  width: 616px;
-}
+  &__box {
+    width: 616px;
+  }
 
-.hero-text {
-  color: $text-color;
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 22px;
-}
+  &__text {
+    color: $text-color;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
 
-.hero-title {
-  color: $text-color;
-  font-size: 60px;
-  font-weight: 700;
-  line-height: 1.23;
-  animation-name: text-run;
-  animation-duration: 3s;
-}
+  &__title {
+    color: $text-color;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.23;
+    animation-name: text-run;
+    animation-duration: 3s;
+  }
 
-.hero-description {
-  color: $text-color;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin-top: 24px;
-  margin-bottom: 45px;
-}
+  &__description {
+    color: $text-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 45px;
+  }
 
-.hero-link {
-  color: $accent-color;
-  font-family: FontAwesome;
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration-line: underline;
+  &__link {
+    color: $accent-color;
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration-line: underline;
+  }
 }
