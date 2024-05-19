@@ -374,94 +374,73 @@ main {
   padding-bottom: 30px;
   background-color: #4d533c;
 }
-
-.footer-contacts {
+.footer__contacts {
   display: flex;
   gap: 128px;
   margin-bottom: 52px;
 }
-
-.footer-list {
-  display: flex;
-  margin-top: 60px;
-}
-
-.footer-item:first-child {
-  margin-right: 78px;
-}
-
-.footer-item:nth-child(2) {
-  margin-right: 100px;
-}
-
-.footer-item:not(:last-child) {
-  width: 160px;
-}
-
-.footer-item-title {
-  margin-bottom: 21px;
-}
-
-.footer-text {
+.footer__text {
   color: #b6c197;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.5;
 }
-
-.footer-address {
+.footer__address {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   line-height: 2.5;
   font-style: normal;
 }
-
-.footer-item:last-child {
-  border-left: solid 1px #4d533c;
-  padding-left: 110px;
-  width: 322px;
-}
-
-.footer-item {
-  flex-shrink: 0;
-}
-
-.footer-line {
+.footer__line {
   height: 1px;
   background-color: #4d533c;
   margin-top: 60px;
 }
-
-.footer-link {
+.footer__list {
   display: flex;
-  align-items: center;
-  margin-top: 24px;
+  margin-top: 60px;
 }
-
-.footer-item-title {
+.footer__item {
+  flex-shrink: 0;
+}
+.footer__item:first-child {
+  margin-right: 78px;
+}
+.footer__item:nth-child(2) {
+  margin-right: 100px;
+}
+.footer__item:not(:last-child) {
+  width: 160px;
+}
+.footer__item:last-child {
+  border-left: solid 1px #4d533c;
+  padding-left: 110px;
+  width: 322px;
+}
+.footer__title {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   line-height: 2.37;
   text-transform: uppercase;
 }
-
-.footer-item-link {
+.footer__sublink {
   color: #b6c197;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.5;
 }
-
-.footer-item-text {
+.footer__subtitle {
+  margin-bottom: 21px;
+}
+.footer__subtext {
   color: #b6c197;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.62;
 }
-
-.footer-item-email {
+.footer__email {
   display: block;
   color: #fff;
   font-size: 24px;
@@ -469,14 +448,17 @@ main {
   line-height: 1.58;
   margin-top: 23px;
 }
-
-.footer-end {
+.footer__end {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.confidential-info {
+.footer__logo {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.footer__info {
   color: #b6c197;
   font-size: 14px;
   font-weight: 400;
