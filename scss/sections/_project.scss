@@ -44,7 +44,7 @@
 }
 
 .project-title {
-  color: var(--title-color);
+  color: $title-color;
   width: 325px;
   font-size: 36px;
   font-weight: 700;
@@ -53,7 +53,7 @@
 }
 
 .project-paragraph {
-  color: var(--info-color);
+  color: $info-color;
   width: 518px;
   font-size: 16px;
   font-weight: 400;
@@ -71,7 +71,7 @@
   top: 734px;
   width: 453px;
   height: 243px;
-  background-color: #fff;
+  background-color: $text-color;
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 30px 30px 29px 33px;
@@ -94,7 +94,7 @@
 }
 
 .project-text {
-  color: var(--title-color);
+  color: $title-color;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -102,21 +102,21 @@
 }
 
 .project-name {
-  color: var(--title-color);
+  color: $title-color;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
 }
 
 .project-position {
-  color: var(--article-text);
+  color: $article-text;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
 }
 
 .project-subtitle {
-  color: var(--title-color);
+  color: $title-color;
   margin-bottom: 24px;
   font-size: 36px;
   font-weight: 700;
@@ -124,7 +124,7 @@
 }
 
 .project-description {
-  color: var(--description-color);
+  color: $description-color;
   margin-bottom: 90px;
   font-size: 16px;
   font-weight: 400;
@@ -132,7 +132,7 @@
 }
 
 .project-link {
-  color: var(--links-color);
+  color: $links-color;
   font-size: 16px;
   font-weight: 700;
 }

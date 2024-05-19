@@ -9,14 +9,14 @@
 }
 
 .hero-text {
-  color: #fff;
+  color: $text-color;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 22px;
 }
 
 .hero-title {
-  color: #fff;
+  color: $text-color;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.23;
@@ -25,7 +25,7 @@
 }
 
 .hero-description {
-  color: #fff;
+  color: $text-color;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -34,7 +34,7 @@
 }
 
 .hero-link {
-  color: #ffd723;
+  color: $accent-color;
   font-family: FontAwesome;
   font-size: 16px;
   font-weight: 400;
