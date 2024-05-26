@@ -1,6 +1,5 @@
 .offer {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  @include section-padding($top: 70px, $bottom: 70px);
 
 
   &__title {

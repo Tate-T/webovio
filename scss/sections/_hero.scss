@@ -1,7 +1,6 @@
 .hero {
   background-image: url(../images/hero-background.webp);
-  padding-top: 121px;
-  padding-bottom: 220px;
+  @include section-padding($top: 121px, $bottom: 220px);
 
   &__box {
     width: 616px;

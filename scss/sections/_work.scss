@@ -1,5 +1,5 @@
 .work {
-  padding-bottom: 150px;
+  @include section-padding($bottom: 150px);
 
   &__container {
     display: flex;
@@ -30,9 +30,7 @@
 
   &__desc {
     color: $info-color;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.62;
+    @extend %text;
     margin-bottom: 42px;
   }
 

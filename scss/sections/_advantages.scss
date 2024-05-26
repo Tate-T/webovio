@@ -1,6 +1,5 @@
 .advantages {
-  padding-top: 149px;
-  padding-bottom: 150px;
+  @include section-padding($top: 149px, $bottom: 150px);
 
   &__list {
     display: flex;
@@ -52,9 +51,7 @@
     font-size: 16px;
     font-weight: 700;
     text-decoration-line: underline;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.41, 0.33, 0.46, 0.93);
+    @include animations ($property: color);
 
     &:hover {
       color: $accent-color;
