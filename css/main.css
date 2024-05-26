@@ -369,6 +369,25 @@ main {
   color: #ffd723;
 }
 
+.offer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.offer__title {
+  color: #4d533c;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.23;
+  margin-bottom: 50px;
+  width: 822px;
+}
+.offer__text {
+  color: #d4d6d4;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
 .footer {
   padding-top: 120px;
   padding-bottom: 30px;
@@ -430,9 +449,6 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 2.5;
-}
-.footer__subtitle {
-  margin-bottom: 21px;
 }
 .footer__subtext {
   color: #b6c197;
